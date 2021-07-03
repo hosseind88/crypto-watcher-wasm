@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body {
+    overflow: hidden;
+    padding: 20px;
+    overflow-y: auto;
+    background: linear-gradient(90deg, rgba(9,5,91,1) 0%, rgba(20,49,136,1) 21%, rgba(19,145,131,1) 64%, rgba(0,212,255,1) 100%);
+}
+
+
+.coin {
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: lightblue;
+    margin-bottom: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background: #F2F2F2;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px #fff inset,
+        -1px -1px 2px #fff inset;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.coin img {
+    height: 80%;
+}
+
+.loading {
+    color: #fff;
+    margin: auto;
+}
+
+.hidden {
+    visibility: hidden;
+}
